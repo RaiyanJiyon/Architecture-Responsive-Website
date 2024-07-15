@@ -1,0 +1,48 @@
+/* Media Query */
+
+/* navbar container */
+.navbar,
+.navbar__lists {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  gap: 10px;
+}
+
+/* navbar container */
+.banner {
+  padding: 20px;
+}
+
+/* ******* */
+.banner__content {
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  margin: 0;
+}
+
+.banner__title {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.banner__description {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.banner__btn {
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* ******* */
+.banner__image {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}

@@ -1,0 +1,39 @@
+/* navbar container */
+.navbar {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  gap: 10px;
+}
+
+/* banner container */
+.banner {
+  padding: 30px;
+}
+
+/* ******* */
+.banner__content {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 0;
+}
+
+.banner__title {
+  /* font-size: 2.5rem; */
+  line-height: 1.2;
+}
+
+.banner__description {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* ******* */
+.banner__image {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
