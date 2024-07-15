@@ -189,3 +189,121 @@ header {
   font-size: 0.8rem;
   line-height: 13px;
 }
+
+/* experience section */
+.experience {
+  width: 870px;
+  height: 650px;
+  margin: 0 auto;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 88px;
+}
+
+#experience__title--block {
+  width: 3px;
+  height: 64px;
+  background: rgb(255, 144, 14);
+}
+
+.experience__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.experience__title {
+  color: rgb(19, 19, 19);
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 14.5px;
+  width: auto;
+  white-space: nowrap;
+}
+
+.experience__description {
+  width: 352px;
+  height: 47px;
+  color: rgb(114, 114, 114);
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.experience__card {
+  width: 352px;
+  height: 103px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  padding: 30px 40px;
+  margin-bottom: 12px;
+}
+
+.experience__card--title {
+  color: rgb(19, 19, 19);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.experience__card--description {
+  color: rgb(114, 114, 114);
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: left;
+}
+
+.experience__image {
+  width: 425px;
+  height: 590px;
+  margin-top: -55px;
+  position: relative;
+}
+
+.experience__image img {
+  width: 100%;
+  height: auto;
+}
+
+.experience__year {
+  width: 205px;
+  height: 120px;
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 25px;
+  margin-top: -60px;
+  margin-left: -50px;
+  position: absolute;
+}
+
+.experience__year--title {
+  font-size: 2.5rem;
+  font-weight: 700px;
+  line-height: 42px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.experience__year--description {
+  font-size: 1.5rem;
+  font-weight: 500px;
+  line-height: 22px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
