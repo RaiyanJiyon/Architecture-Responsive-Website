@@ -46,3 +46,37 @@
   height: auto;
   margin-top: 30px;
 }
+
+/* feature section */
+.features {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.features__images {
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.features__content {
+    align-items: center;
+    margin-top: 20px;
+}
+
+.features__title {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.features__description {
+    width: 100%;
+    text-align: center;
+}
+
+.features__btn--primary {
+    width: 80%;
+    font-size: 1rem;
+    margin-top: 20px;
+}
