@@ -128,8 +128,43 @@ header {
     justify-content: center;
     align-items: center;
   }
+
   .navbar {
     gap: 10px;
+  }
+
+  .banner {
+    padding: 20px;
+  }
+
+  /* ******* */
+  .banner__content {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .banner__title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .banner__description {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+
+  .banner__btn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  /* ******* */
+  .banner__image {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
   }
 }
 
@@ -142,5 +177,34 @@ header {
   }
   .navbar {
     gap: 10px;
+  }
+
+  .banner {
+    padding: 30px;
+  }
+
+  /* ******* */
+  .banner__content {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .banner__title {
+    /* font-size: 2.5rem; */
+    line-height: 1.2;
+  }
+
+  .banner__description {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  /* ******* */
+  .banner__image {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
   }
 }
