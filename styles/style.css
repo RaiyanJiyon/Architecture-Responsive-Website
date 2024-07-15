@@ -56,3 +56,29 @@ body {
   text-align: center;
   cursor: pointer;
 }
+
+
+/* Media Query */
+@media screen and (max-width: 576px) {
+    .navbar, 
+    .navbar__lists {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar {
+        gap: 10px;
+    }
+}
+
+/* Medium screen */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar {
+        gap: 10px;
+    }
+}
