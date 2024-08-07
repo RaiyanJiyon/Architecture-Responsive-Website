@@ -382,10 +382,8 @@ header {
 
 /* facts section ends */
 
-
 /* sponsors section starts */
 .sponsors {
-  border: 2px solid rebeccapurple;
   width: 864px;
   height: auto;
   margin: 0 auto;
@@ -422,19 +420,36 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5.5px;
+  margin-top: 15px;
 }
 
 .sponsors__logo img {
   width: 100px;
   height: auto;
+  cursor: pointer;
 }
 
-
-
-
-
-
-
-
 /* sponsors section ends */
+
+/* footer starts */
+.footer__content {
+  width: 878px;
+  height: 70px;
+  border-radius: 8px;
+  background: rgb(255, 244, 231);
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 1px solid transparent;
+}
+
+.footer__content-description {
+  color: rgb(66, 66, 66);
+  font-size: 0.76rem;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 23.79px;
+}
+/* footer ends */
