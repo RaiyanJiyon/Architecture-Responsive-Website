@@ -23,6 +23,10 @@ body {
   display: flex;
 }
 
+#display-hide {
+  display: none;
+}
+
 /* header element */
 header {
   height: auto;
@@ -60,6 +64,10 @@ header {
   line-height: 16px;
   text-align: center;
   cursor: pointer;
+}
+
+.navbar__bar-icon {
+  display: none;
 }
 
 /* banner container */
