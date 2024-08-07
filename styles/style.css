@@ -26,9 +26,9 @@ body {
 
 /* header element */
 header {
-  height: 955px;
-  /* height: 1322px; */
+  height: auto;
 }
+
 .navbar {
   justify-content: space-evenly;
   align-items: center;
@@ -38,7 +38,7 @@ header {
 
 .navbar__brand {
   color: rgb(19, 19, 19);
-  font-size: 2.8rem;
+  font-size: 1.72rem;
   font-weight: 700;
   line-height: 31, 8px;
   text-align: center;
@@ -56,7 +56,7 @@ header {
 .navbar__item a {
   text-decoration: none;
   color: rgb(66, 66, 66);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 16px;
   text-align: center;
@@ -82,16 +82,16 @@ header {
 
 .banner__title {
   color: rgb(19, 19, 19);
-  font-size: 3rem;
+  font-size: 2.44rem;
   font-weight: 700;
-  line-height: 65px;
+  line-height: 45px;
   text-align: center;
   margin-bottom: 23px;
 }
 
 .banner__description {
   color: rgb(114, 114, 114);
-  font-size: 1rem;
+  font-size: 0.61rem;
   font-weight: 400;
   line-height: 15.6px;
   text-align: center;
@@ -105,7 +105,7 @@ header {
   border: none;
   background: rgb(255, 144, 14);
   color: rgb(255, 255, 255);
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 14px;
   text-align: center;
@@ -116,7 +116,8 @@ header {
   width: 864px;
   height: 420px;
   border-radius: 8px;
-  margin-top: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .banner__image img {
