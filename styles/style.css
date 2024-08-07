@@ -316,7 +316,7 @@ header {
   width: 864px;
   height: auto;
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 79px;
 }
 
 .facts__content {
@@ -381,3 +381,60 @@ header {
 }
 
 /* facts section ends */
+
+
+/* sponsors section starts */
+.sponsors {
+  border: 2px solid rebeccapurple;
+  width: 864px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 79px;
+}
+
+.sponsors__content {
+  width: 542px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.sponsors__content-title {
+  color: rgb(19, 19, 19);
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 14.5px;
+  text-align: center;
+}
+
+.sponsors__content-description {
+  width: 352px;
+  height: 47px;
+  color: rgb(114, 114, 114);
+  font-size: 0.6rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 15.6px;
+  margin: 0 auto;
+}
+
+.sponsors__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.5px;
+}
+
+.sponsors__logo img {
+  width: 100px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+/* sponsors section ends */
