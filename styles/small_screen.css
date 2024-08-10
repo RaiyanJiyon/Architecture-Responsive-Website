@@ -35,3 +35,75 @@ header {
 .navbar__bar-icon {
   display: block;
 }
+
+/* banner container start */
+.banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.banner__content {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__title {
+  width: 100%;
+  height: auto;
+  color: rgb(19, 19, 19);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.banner__description {
+  width: 100%;
+  height: auto;
+  color: rgb(114, 114, 114);
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner__btn {
+  width: 130px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 144, 14);
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.banner__image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.banner__image img {
+  width: 100%;
+}
+/* banner container end */
+
+/* header elements end */
