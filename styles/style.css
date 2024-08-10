@@ -206,7 +206,7 @@ header {
 }
 /* feature section end */
 
-/* experience section */
+/* experience section start */
 .experience {
   width: 870px;
   height: 650px;
@@ -216,10 +216,6 @@ header {
   justify-content: center;
   align-items: center;
   gap: 88px;
-}
-
-#experience__title--block {
-
 }
 
 .experience__content {
@@ -338,7 +334,7 @@ header {
   color: rgb(255, 255, 255);
 }
 
-/*  */
+/* experience section end  */
 
 /* facts section starts */
 .facts {
