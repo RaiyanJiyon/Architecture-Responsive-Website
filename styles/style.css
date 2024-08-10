@@ -33,9 +33,10 @@ header {
 }
 
 .navbar {
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 385px;
+  gap: 100px;
   padding-top: 20px;
 }
 
@@ -130,6 +131,8 @@ header {
 .banner__image img {
   width: 100%;
 }
+
+/* header elements end */
 
 /* main elements starts */
 
